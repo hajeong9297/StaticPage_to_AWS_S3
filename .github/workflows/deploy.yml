@@ -23,4 +23,4 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync ./ s3://내-버킷-이름 --delete --exclude ".git/*" --exclude ".github/*"
+        arn:aws:s3:::mybucket-20263568 --delete --exclude ".git/*" --exclude ".github/*"
